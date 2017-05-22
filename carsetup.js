@@ -148,16 +148,28 @@ function drawCar(car)
 	}
 		//set the car's front and rear tires' radius properties equal to the ft and rt slider's values
 		
-		
+		var ft = ftSlider;
+		var rt = rtSlider;
 		
 	//?need help
 		
 		//create a variable called wd and assign the wheelDistance slider's value to it as a Number.
 	var wd = wheelDistance = 20;	
 		//set the car's front tire's x property equal to the center plus wd.
+		for(var car.x = 0; car.x = center + wd)
+	{
+		
+		car.x += center;
+
+		if(car.x >= 60)
+		{
+			car.x = -wd;
+		}
 		
 		
-		//?need help
+	}
+		
+		
 	function()
 	{
 		
@@ -165,7 +177,18 @@ function drawCar(car)
 		
 	}	
 		//set the car's rear tire's x property equal to the center minus wd.
+		for(var car.x = 0; car.x = center - wd)
+	{
 		
+		car.x += center;
+
+		if(car.x >= 60)
+		{
+			car.x = +wd;
+		}
+		
+		
+	}
   
 		
 		/*
@@ -181,24 +204,28 @@ function drawCar(car)
 			2. set the car's sponsor decal to false
 		
 		*/
-		var sponsor = i;
-		var sponsorNameBox = x;
+	function checkbox
+	{
 		
-		if (i <= )
+		var sponserd = document.getElementById('sponserd');
+		if (sponserd.checked)
 		{
-			for
-			Car.prototype.run = function(){
-                return true;
-            };
-			
-		}
-		else( i >=)
-		{
-			
+			document.getElementById("textbox").enable = 'true';
+			decal = true;
+			sponsorNameBox = true;
 			
 			
 		}
+		else
+		{
+			document.getElementById("textbox").disable = 'true';
+			decal = false;
+			sponsorNameBox = false;
+			
+		}
+		
+	}	
+		
 	
 		
      
-
