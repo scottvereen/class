@@ -102,10 +102,11 @@ this.roofSlider = roof;
 this.wheelDistance = distance;
 this.carWidth = width;
 }
-function Car()
-{
+
+//function Car()
+//{
 	
-};
+//};
 
 
 var timer = setInterval(animate, 1000/60);
@@ -204,6 +205,52 @@ function drawCar(car)
 			2. set the car's sponsor decal to false
 		
 		*/
+		
+	function button
+	{
+		
+		let loadcar = JSON.parse(load_car);
+		//var loadcar = document.getElementById('loadcar');
+		
+		//if (sponserd.checked)//need to change when i know where data is saved
+		//{
+			//document.getElementById("loadcar").enable = 'true';
+
+			
+			
+		//}
+		//else
+		//{
+			//document.getElementById("loadcar").disable = 'true';
+			
+			
+		//}
+		
+		
+	}
+		
+	function button
+	{
+		
+		var deletecar = document.getElementById('deletecar');
+		if (sponserd.checked)//need to change when i know where data is saved 
+		{
+			document.getElementById("deletecar").enable = 'true';
+			
+		
+		}
+		else
+		{
+			document.getElementById("deletecar").disable = 'true';
+	
+			
+		}
+		
+		
+	}	
+		
+		
+		
 	function checkbox
 	{
 		
