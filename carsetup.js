@@ -88,17 +88,20 @@ console.log(protocar);
 	
 */
 var car = new car;
-car.sponsorNameBox = '';
-car.sponsored = '';
-car.colorInput = '';
-car.frontSlider = '';
-car.rearSlider = '';
-car.rtSlider = '';
-car.ftSlider = '';
-car.roofSlider = '';
-car.wheelDistance = '';
-car.carWidth = '';
 
+function car(sponsorNameBox,sponsored,colorInput,frontSlider,rearSlider,rtSlider,ftSlider,roofSlider,wheelDistance,carWidth)
+{
+this.sponsorNameBox = box;
+this.sponsored = sponsored;
+this.colorInput = color;
+this.frontSlider = front;
+this.rearSlider = rear;
+this.rtSlider = rt;
+this.ftSlider = ft;
+this.roofSlider = roof;
+this.wheelDistance = distance;
+this.carWidth = width;
+}
 function Car()
 {
 	
@@ -178,13 +181,18 @@ function drawCar(car)
 			2. set the car's sponsor decal to false
 		
 		*/
-		if ()
+		var sponsor = i;
+		var sponsorNameBox = x;
+		
+		if (i <= )
 		{
-			
-			
+			for
+			Car.prototype.run = function(){
+                return true;
+            };
 			
 		}
-		else()
+		else( i >=)
 		{
 			
 			
